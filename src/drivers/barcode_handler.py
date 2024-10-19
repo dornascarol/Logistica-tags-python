@@ -8,4 +8,3 @@ class BarcodeHandler:
         tag.save(path_from_tag)
     
         return path_from_tag
-    
