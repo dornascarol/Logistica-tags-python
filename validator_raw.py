@@ -4,7 +4,6 @@ body = {
     "data": {
         "elemento1": 123.98,
         "elemento2": "olaMundo",
-        "elemento3": 123
     }
 }
 
@@ -21,5 +20,7 @@ body_validator = Validator({
 
 response = body_validator.validate(body)
 
-print(response)
-print(body_validator.errors)
+if response is False:
+    print(body_validator.errors)
+else:
+     print('Body OK')   
