@@ -13,6 +13,7 @@ def test_tag_creator_validator_with_error():
     req = MockRequest(json={ "product_code": 12345 })
     
     try:
-        tag_creator_validator(req)        
+        tag_creator_validator(req)
+        assert False        
     except Exception as exception:
         assert isinstance(exception, HttpUnprocessableEntityError)
