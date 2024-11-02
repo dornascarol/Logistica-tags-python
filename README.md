@@ -37,9 +37,32 @@ Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pi
 Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes passos: `Ctrl + Shift + p` → escrever na barra `Python: Select Interpreter` → escolher a opção recomendada do Python que tenha `('.venv':venv)`
 
 
+## Endpoint
+<p> Caminho da URL: http://localhost:3000 </p>
+
+| Método | URL             | Descrição                                                                                             |
+| ------ | --------------  | ------------------------------------------------------------------------------------------------------|
+| POST   | /create_tag     | Cria uma nova tag usando o parâmetro obrigatório enviado dentro do `request.body` no formato JSON.    |
+
+### Parâmetro request body
+`{
+	"product_code": "123456789"
+}`
+
+### Resposta positiva
+200 - OK
+
+``
+
+### Resposta negativa
+422 - UNPROCESSABLE ENTITY
+
+``
+
 
 ## Testes unitários
 
 
+
 ## Status do projeto
-:heavy_check_mark: Aplicação finalizada.
+:construction: Aplicação em andamento.
