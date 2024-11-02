@@ -14,7 +14,8 @@ Aplicação voltada para a criação de barras de código (tags) destinadas a pr
 - Virtualenv
 - Pylint
 - Pre-commit
-- 
+- Flask
+  
 
 ## Ferramentas
 Python na versão 3.10.2
@@ -25,11 +26,13 @@ Foi instalado a extensão Pylint no VS Code.
 
 
 ## Dependências
-Biblioteca <a href= "https://pypi.org/project/virtualenv/" target="_blank" > virtualenv </a> na versão 20.26.6 → `pip3 install virtualenv`
+Biblioteca <a href= "https://pypi.org/project/virtualenv/" target="_blank" > virtualenv </a> na versão 20.27.1 → `pip3 install virtualenv`
 
 Biblioteca <a href= "https://pypi.org/project/pylint/" target="_blank" > pylint </a> na versão 3.3.1 → `pip install pylint`
 
-Biblioteca <a href= "https://pre-commit.com/#install" target="_blank" > pre-commit </a> na versão 4.0.1 → `pip install pre-commit`
+Framework <a href= "https://pre-commit.com/#install" target="_blank" > pre-commit </a> na versão 4.0.1 → `pip install pre-commit`
+
+Framework <a href= "https://pypi.org/project/Flask/" target="_blank" > Flask </a> na versão 3.0.3  → `pip install Flask`
 
 
 ## Rodando o projeto
