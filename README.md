@@ -42,9 +42,9 @@ Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow 
 
 
 ## Rodando o projeto
-Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  criar um ambiente virtual </a> no Windows → `py -m venv .venv`
+Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  criar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `py -m venv .venv`
 
-Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  ativar um ambiente virtual </a> no Windows → `.venv\Scripts\activate`
+Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  ativar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `.venv\Scripts\activate`
 
 Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes passos: `Ctrl + Shift + p` → escrever na barra `Python: Select Interpreter` → escolher a opção recomendada do Python que tenha `('.venv':venv)`
 
@@ -52,18 +52,23 @@ Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes 
 
 Para <a href= "https://pre-commit.com/#install" target="_blank" > adicionar a configuração do pre-commit </a>, cria um arquivo chamado: `.pre-commit-config.yaml`
 
-Para <a href= "https://pre-commit.com/#install" target="_blank" > instalar os scripts de hook do git </a> → `pre-commit install` 
+Para <a href= "https://pre-commit.com/#install" target="_blank" > instalar os scripts de hook do git </a>, escreva o seguinte comando no terminal → `pre-commit install` 
 
 -
 
+Para rodar o servidor, escreva o seguinte comando no terminal → `python run.py`  
+
+Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
+
+- 
 
 
 ## Endpoint
-<p> Caminho da URL: http://localhost:3000 </p>
+<p> Caminho da URL= http://localhost:3000 </p>
 
-| Método | URL             | Descrição                                                                                             |
-| ------ | --------------  | ------------------------------------------------------------------------------------------------------|
-| POST   | /create_tag     | Cria uma nova tag usando o parâmetro obrigatório enviado dentro do `request.body` no formato JSON.    |
+| Método HTTP | URL             | Descrição                                                                                             |
+| ----------- | --------------  | ------------------------------------------------------------------------------------------------------|
+|    POST     | /create_tag     | Cria uma nova tag usando o parâmetro obrigatório enviado dentro do `request.body` no formato JSON.    |
 
 ### Parâmetro request body
 `{
