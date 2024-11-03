@@ -15,6 +15,8 @@ Aplicação voltada para a criação de barras de código (tags) destinadas a pr
 - Pylint
 - Pre-commit
 - Flask
+- Python-barcode
+- Pillow
   
 
 ## Ferramentas
@@ -33,6 +35,10 @@ Biblioteca <a href= "https://pypi.org/project/pylint/" target="_blank" > pylint 
 Framework <a href= "https://pre-commit.com/#install" target="_blank" > pre-commit </a> na versão 4.0.1 → `pip install pre-commit`
 
 Framework <a href= "https://pypi.org/project/Flask/" target="_blank" > Flask </a> na versão 3.0.3  → `pip install Flask`
+
+Biblioteca <a href= "https://pypi.org/project/python-barcode/" target="_blank" > python-barcode </a> na versão 0.15.1 → `pip install python-barcode` 
+
+Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow </a> na versão 11.0.0 → `pip install pillow` 
 
 
 ## Rodando o projeto
