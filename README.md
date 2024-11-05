@@ -71,19 +71,64 @@ Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
 |    POST     | /create_tag     | Cria uma nova tag usando o parâmetro obrigatório enviado dentro do `request.body` no formato JSON.    |
 
 ### Parâmetro request body
-`{
+```
+{
 	"product_code": "123456789"
-}`
+}
+
+```
 
 ### Resposta positiva
-200 - OK
+200 - OK: tag criada com sucesso no formato imagem (png)
 
-``
+```
+{
+	"data": {
+		"count": 1,
+		"path": "123456789.png",
+		"type": "Tag Image"
+	}
+}
 
-### Resposta negativa
-422 - UNPROCESSABLE ENTITY
+```
 
-``
+### Respostas negativas
+422 - UNPROCESSABLE ENTITY: erro no parâmetro obrigatório
+
+```
+{
+	"errors": [
+		{
+			"detail": {
+				"product": [
+					"unknown field"
+				],
+				"product_code": [
+					"required field"
+				]
+			},
+			"title": "UnprocessableEntity"
+		}
+	]
+}
+
+```
+
+
+500 - INTERNAL SERVER ERROR: quando não envia o parâmetro obrigatório
+
+```
+{
+	"errors": [
+		{
+			"detail": "400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)",
+			"title": "Server Error"
+		}
+	]
+}
+
+```
+
 
 
 ## Testes unitários
