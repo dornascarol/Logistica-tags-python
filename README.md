@@ -42,6 +42,12 @@ Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow 
 
 
 ## Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo.
+
+Em seguida rodar as instalações de dependências.
+
+-
+
 Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  criar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `py -m venv .venv`
 
 Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  ativar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `.venv\Scripts\activate`
@@ -61,6 +67,7 @@ Para rodar o servidor, escreva o seguinte comando no terminal → `python run.py
 Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
 
 - 
+Ir no Insomnia para testar a rota. Colar a URL. Escrever o parâmetro no body. Aguardar pela resposta. 
 
 
 ## Endpoint
@@ -93,7 +100,7 @@ Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
 ```
 
 ### Respostas negativas
-422 - UNPROCESSABLE ENTITY: erro no parâmetro obrigatório
+422 - UNPROCESSABLE ENTITY: erro sintático no parâmetro obrigatório
 
 ```
 {
