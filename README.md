@@ -5,7 +5,7 @@
 API para criação de barras de código (tags).
 
 ## Introdução
-Aplicação voltada para a criação de barras de código (tags) destinadas a produtos comerciais. Voltado para automatizar e usufruir na parte logística.
+Aplicação voltada para a criação de uma imagem de barras de código (tags) destinados aos produtos comerciais. Voltado para automatizar e usufruir na parte logística. Levando em consideração os erros que podem acontecer e tendo uma boa interação com o usuário.
 
 ## Tecnologias utilizadas
 - VS Code
@@ -20,7 +20,7 @@ Aplicação voltada para a criação de barras de código (tags) destinadas a pr
   
 
 ## Ferramentas
-Python na versão 3.10.2
+A linguagem <a href= "https://www.python.org/downloads/" target="blank" > Python </a> na versão 3.10.2
 
 Foi usado o programa <a href="https://insomnia.rest/download" target="_blank" > Insomnia </a> para testar as requisições das rotas simulando o Front-end.
 
