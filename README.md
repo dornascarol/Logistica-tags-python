@@ -17,6 +17,7 @@ Aplicação voltada para a criação de uma imagem de barras de código (tags) d
 - Flask
 - Python-barcode
 - Pillow
+- Cerberus
   
 
 ## Ferramentas
@@ -40,11 +41,13 @@ Biblioteca <a href= "https://pypi.org/project/python-barcode/" target="_blank" >
 
 Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow </a> na versão 11.0.0 → `pip install pillow` 
 
+Biblioteca <a href= "https://pypi.org/project/Cerberus/" target="_blank" > Cerberus </a> na versão 1.3.5 → `pip install Cerberus` 
+
 
 ## Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo.
 
-Em seguida rodar as instalações de dependências.
+Em seguida, rodar as instalações de dependências.
 
 -
 
