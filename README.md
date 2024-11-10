@@ -2,10 +2,10 @@
 <br>
 
 ## Este foi o projeto que aprendi no curso da Rocketseat
-API para criação de barras de código (tags).
+API para criação de código de barras (tags).
 
 ## Introdução
-Aplicação voltada para a criação de uma imagem de barras de código (tags) destinados aos produtos comerciais. Voltado para automatizar e usufruir na parte logística. Levando em consideração os erros que podem acontecer e tendo uma boa interação com o usuário.
+O objetivo da aplicação é para criações de imagens de códigos de barras (tags) destinados aos produtos comerciais. Voltado para automatizar e usufruir na parte logística. Levando em consideração os erros que podem acontecer e tendo uma boa interação com o usuário.
 
 ## Tecnologias utilizadas
 - VS Code
@@ -18,6 +18,7 @@ Aplicação voltada para a criação de uma imagem de barras de código (tags) d
 - Python-barcode
 - Pillow
 - Cerberus
+- Pytest
   
 
 ## Ferramentas
@@ -42,6 +43,8 @@ Biblioteca <a href= "https://pypi.org/project/python-barcode/" target="_blank" >
 Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow </a> na versão 11.0.0 → `pip install pillow` 
 
 Biblioteca <a href= "https://pypi.org/project/Cerberus/" target="_blank" > Cerberus </a> na versão 1.3.5 → `pip install Cerberus` 
+
+Biblioteca <a href= "https://pypi.org/project/pytest/" target="_blank" > pytest </a> na versão 8.3.3 → `pip install pytest` 
 
 
 ## Rodando o projeto
