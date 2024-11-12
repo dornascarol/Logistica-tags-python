@@ -48,9 +48,7 @@ Biblioteca <a href= "https://pypi.org/project/pytest/" target="_blank" > pytest 
 
 
 ## Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo.
-
-Em seguida, rodar as instalações de dependências.
+Para rodar o repositório é necessário dar um `git clone https://github.com/dornascarol/Logistica-tags-python.git` em alguma pasta do seu computador.
 
 -
 
@@ -59,6 +57,10 @@ Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pi
 Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  ativar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `.venv\Scripts\activate`
 
 Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes passos: `Ctrl + Shift + p` → escrever na barra `Python: Select Interpreter` → escolher a opção recomendada do Python que tenha `('.venv':venv)`
+
+-
+
+Em seguida, rodar as instalações de dependências no ambiente virtual.
 
 -
 
@@ -73,7 +75,7 @@ Para rodar o servidor, escreva o seguinte comando no terminal → `python run.py
 Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
 
 - 
-Ir no Insomnia para testar a rota. Colar a URL. Escrever o parâmetro no body. Aguardar pela resposta. 
+Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro no body. Aguardar pela resposta. 
 
 
 ## Endpoint
@@ -143,9 +145,14 @@ Ir no Insomnia para testar a rota. Colar a URL. Escrever o parâmetro no body. A
 ```
 
 
-
 ## Testes unitários
+Arquivo para validar se realmente a requisição está fazendo o processo de criação de tag.
 
+-
+
+Para rodar o teste unitário → `pytest` 
+
+Ou para rodar e apresentar o nome do teste com o status (se passou ou falhou) → `pytest -s -v` 
 
 
 ## Status do projeto
