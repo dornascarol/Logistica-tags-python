@@ -1,8 +1,8 @@
-<h1> Tags 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 </h1>
+<h1> Tag 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 </h1>
 <br>
 
 ## Este foi o projeto que aprendi no curso da Rocketseat
-API para criação de código de barras (tags).
+API para criação de código de barras (tag).
 
 ## Introdução
 O objetivo da aplicação é para criações de imagens de códigos de barras (tags) destinados aos produtos comerciais. Voltado para automatizar e usufruir na parte logística. Levando em consideração os erros que podem acontecer e tendo uma boa interação com o usuário.
@@ -148,6 +148,8 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 ## Testes unitários
 Arquivo para validar se realmente a requisição está fazendo o processo de criação de tag.
 
+Arquivo para verificar se a requisição está retornando o comportamento da integração do barcode para criação de tag com os parâmetros de type, count e path.
+
 -
 
 Para rodar o teste unitário → `pytest` 
@@ -156,4 +158,4 @@ Ou para rodar e apresentar o nome do teste com o status (se passou ou falhou) �
 
 
 ## Status do projeto
-:construction: Aplicação em andamento.
+:heavy_check_mark: Aplicação finalizada.
