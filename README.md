@@ -26,7 +26,7 @@ A linguagem <a href= "https://www.python.org/downloads/" target="blank" > Python
 
 Foi usado o programa <a href="https://insomnia.rest/download" target="_blank" > Insomnia </a> para testar as requisições das rotas simulando o Front-end.
 
-Foi instalado a extensão Pylint no VS Code.
+Foi instalado a extensão Pylint no <a href = "https://code.visualstudio.com/download" target="_blank" > VS Code </a>.
 
 
 ## Dependências
@@ -48,7 +48,9 @@ Biblioteca <a href= "https://pypi.org/project/pytest/" target="_blank" > pytest 
 
 
 ## Rodando o projeto
-Para rodar o repositório é necessário dar um `git clone https://github.com/dornascarol/Logistica-tags-python.git` em alguma pasta do seu computador.
+Para obter o repositório, é necessário escrever o seguinte comando `git clone https://github.com/dornascarol/Logistica-tags-python.git` no terminal do seu computador e já direcionando para alguma pasta.
+
+Abrir a pasta clonada no VS Code. 
 
 -
 
@@ -60,7 +62,7 @@ Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes 
 
 -
 
-Em seguida, rodar as instalações de dependências no ambiente virtual.
+Em seguida, baixar as instalações de dependências no ambiente virtual.
 
 -
 
@@ -75,6 +77,7 @@ Para rodar o servidor, escreva o seguinte comando no terminal → `python run.py
 Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
 
 - 
+
 Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro no body. Aguardar pela resposta. 
 
 
@@ -88,7 +91,7 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 ### Parâmetro request body
 ```
 {
-	"product_code": "123456789"
+	"product_code": "exemplo_123456789"
 }
 
 ```
@@ -146,15 +149,15 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 
 
 ## Testes unitários
-Arquivo para validar se realmente a requisição está fazendo o processo de criação de tag.
+1) Arquivo para validar se realmente a requisição está fazendo o processo de criação de tag.
 
-Arquivo para verificar se a requisição está retornando o comportamento da integração do barcode para criação de tag com os parâmetros de type, count e path.
+2) Arquivo para verificar se a requisição está retornando o comportamento da integração do barcode para criação de tag com os parâmetros de type, count e path.
 
 -
 
-Para rodar o teste unitário → `pytest` 
+Para rodar o teste unitário, escreva o seguinte comando no terminal → `pytest` 
 
-Ou para rodar e apresentar o nome do teste com o status (se passou ou falhou) → `pytest -s -v` 
+Ou para rodar e apresentar o nome do teste com o status (se passou ou falhou), escreva o seguinte comando no terminal → `pytest -s -v` 
 
 
 ## Status do projeto
