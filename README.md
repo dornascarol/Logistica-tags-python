@@ -1,13 +1,12 @@
 <h1> Tag 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 </h1>
 <br>
 
-## Este foi o projeto que aprendi no curso da Rocketseat
-API para criação de código de barras (tag).
+_This was the project I learned in the Rocketseat course_
 
-## Introdução
-O objetivo da aplicação é para criações de imagens de códigos de barras (tags) destinados aos produtos comerciais. Voltado para automatizar e usufruir na parte logística. Levando em consideração os erros que podem acontecer e tendo uma boa interação com o usuário.
+## Introduction
+The purpose of the application is to create barcode images (tags) for commercial products. It is aimed at automating and benefiting from the logistics side. Taking into account the errors that may occur and having good interaction with the user.
 
-## Tecnologias utilizadas
+## Technologies used
 - VS Code
 - Insomnia
 - Python
@@ -21,74 +20,74 @@ O objetivo da aplicação é para criações de imagens de códigos de barras (t
 - Pytest
   
 
-## Ferramentas
-A linguagem <a href= "https://www.python.org/downloads/" target="blank" > Python </a> na versão 3.10.2
+## Tools
+<a href= "https://www.python.org/downloads/" target="blank" > Python</a> language version 3.10.2
 
-Foi usado o programa <a href="https://insomnia.rest/download" target="_blank" > Insomnia </a> para testar as requisições das rotas simulando o Front-end.
+The <a href="https://insomnia.rest/download" target="_blank" > Insomnia</a> program was used to test route requests simulating the Front-end.
 
-Foi instalado a extensão Pylint no <a href = "https://code.visualstudio.com/download" target="_blank" > VS Code </a>.
-
-
-## Dependências
-Biblioteca <a href= "https://pypi.org/project/virtualenv/" target="_blank" > virtualenv </a> na versão 20.27.1 → `pip3 install virtualenv`
-
-Biblioteca <a href= "https://pypi.org/project/pylint/" target="_blank" > pylint </a> na versão 3.3.1 → `pip install pylint`
-
-Framework <a href= "https://pre-commit.com/#install" target="_blank" > pre-commit </a> na versão 4.0.1 → `pip install pre-commit`
-
-Framework <a href= "https://pypi.org/project/Flask/" target="_blank" > Flask </a> na versão 3.0.3  → `pip install Flask`
-
-Biblioteca <a href= "https://pypi.org/project/python-barcode/" target="_blank" > python-barcode </a> na versão 0.15.1 → `pip install python-barcode` 
-
-Biblioteca <a href= "https://pypi.org/project/pillow/" target="_blank" > pillow </a> na versão 11.0.0 → `pip install pillow` 
-
-Biblioteca <a href= "https://pypi.org/project/Cerberus/" target="_blank" > Cerberus </a> na versão 1.3.5 → `pip install Cerberus` 
-
-Biblioteca <a href= "https://pypi.org/project/pytest/" target="_blank" > pytest </a> na versão 8.3.3 → `pip install pytest` 
+Pylint extension has been installed in <a href = "https://code.visualstudio.com/download" target="_blank" > VS Code</a>.
 
 
-## Rodando o projeto
-Para obter o repositório, é necessário escrever o seguinte comando `git clone https://github.com/dornascarol/Logistica-tags-python.git` no terminal do seu computador e já direcionando para alguma pasta.
+## Dependencies
+<a href= "https://pypi.org/project/virtualenv/" target="_blank" > Virtualenv</a> library in version 20.27.1 → `pip3 install virtualenv`
 
-Abrir a pasta clonada no VS Code. 
+<a href= "https://pypi.org/project/pylint/" target="_blank" > Pylint</a> library in version 3.3.1 → `pip install pylint`
 
--
+<a href= "https://pre-commit.com/#install" target="_blank" > Pre-commit</a> framework in version 4.0.1 → `pip install pre-commit`
 
-Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  criar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `py -m venv .venv`
+<a href= "https://pypi.org/project/Flask/" target="_blank" > Flask</a> framework in version 3.0.3  → `pip install Flask`
 
-Para <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  ativar um ambiente virtual </a> no Windows, escreva o seguinte comando no terminal → `.venv\Scripts\activate`
+<a href= "https://pypi.org/project/python-barcode/" target="_blank" > Python-barcode</a> library in version 0.15.1 → `pip install python-barcode` 
 
-Ou configurar o VS Code para trabalhar com ambiente virtual usando os seguintes passos: `Ctrl + Shift + p` → escrever na barra `Python: Select Interpreter` → escolher a opção recomendada do Python que tenha `('.venv':venv)`
+<a href= "https://pypi.org/project/pillow/" target="_blank" > Pillow</a> library in version 11.0.0 → `pip install pillow` 
+
+<a href= "https://pypi.org/project/Cerberus/" target="_blank" > Cerberus</a> library in version 1.3.5 → `pip install Cerberus` 
+
+<a href= "https://pypi.org/project/pytest/" target="_blank" > Pytest</a> library in version 8.3.3 → `pip install pytest` 
+
+
+## Running the project
+To obtain the repository, you need to write the following command `git clone https://github.com/dornascarol/Logistica-tags-python.git` in your computer's terminal and direct it to a folder.
+
+Open the cloned folder in VS Code.
 
 -
 
-Em seguida, baixar as instalações de dependências no ambiente virtual.
+To <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" > create a virtual environment</a> in Windows, type the following command in the terminal → `py -m venv .venv`
+
+To <a href= "https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#" target="_blank" >  activate a virtual environment</a> in Windows, type the following command in the terminal → `.venv\Scripts\activate`
+
+Or configure VS Code to work with a virtual environment using the following steps: `Ctrl + Shift + p` → type `Python: Select Interpreter` in the bar → choose the recommended Python option that has `('.venv':venv)`
 
 -
 
-Para <a href= "https://pre-commit.com/#install" target="_blank" > adicionar a configuração do pre-commit </a>, cria um arquivo chamado: `.pre-commit-config.yaml`
-
-Para <a href= "https://pre-commit.com/#install" target="_blank" > instalar os scripts de hook do git </a>, escreva o seguinte comando no terminal → `pre-commit install` 
+Then download the dependency installations in the virtual environment.
 
 -
 
-Para rodar o servidor, escreva o seguinte comando no terminal → `python run.py`  
+To <a href= "https://pre-commit.com/#install" target="_blank" > add pre-commit configuration</a>, create a file called: `.pre-commit-config.yaml`
 
-Para fechar o servidor, clique nas seguintes teclas: `Ctrl + c`
+To <a href= "https://pre-commit.com/#install" target="_blank" > install the git hook scripts</a>, type the following command in the terminal → `pre-commit install`
+
+-
+
+To run the server, type the following command in the terminal → `python run.py`  
+
+To close the server, click the following keys: `Ctrl + c`
 
 - 
 
-Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro no body. Aguardar pela resposta. 
+Go to Insomnia to test the route. Paste the full URL. Write the parameter in the body. Wait for the response.
 
 
 ## Endpoint
-<p> Caminho da URL= http://localhost:3000 </p>
+<p> URL path= http://localhost:3000 </p>
 
-| Método HTTP | URL             | Descrição                                                                                             |
+| HTTP Method | URL             | Description                                                                                           |
 | ----------- | --------------  | ------------------------------------------------------------------------------------------------------|
-|    POST     | /create_tag     | Cria uma nova tag usando o parâmetro obrigatório enviado dentro do `request.body` no formato JSON.    |
+|    POST     | /create_tag     | Creates a new tag using the required parameter sent inside `request.body` in JSON format.             |
 
-### Parâmetro request body
+### Request body parameter
 ```
 {
 	"product_code": "exemplo_123456789"
@@ -96,8 +95,8 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 
 ```
 
-### Resposta positiva
-200 - OK: tag criada com sucesso no formato imagem (png)
+### Positive response
+200 - OK: tag successfully created in image format (png)
 
 ```
 {
@@ -110,8 +109,8 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 
 ```
 
-### Respostas negativas
-422 - UNPROCESSABLE ENTITY: erro sintático no parâmetro obrigatório
+### Negative responses
+422 - UNPROCESSABLE ENTITY: syntactical error in mandatory parameter
 
 ```
 {
@@ -133,7 +132,7 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 ```
 
 
-500 - INTERNAL SERVER ERROR: quando não envia o parâmetro obrigatório
+500 - INTERNAL SERVER ERROR: when it does not send the mandatory parameter
 
 ```
 {
@@ -148,17 +147,17 @@ Ir no Insomnia para testar a rota. Colar a URL completa. Escrever o parâmetro n
 ```
 
 
-## Testes unitários
-1) Arquivo para validar se realmente a requisição está fazendo o processo de criação de tag.
+## Unit tests
+1) File to validate whether the request is actually performing the tag creation process.
 
-2) Arquivo para verificar se a requisição está retornando o comportamento da integração do barcode para criação de tag com os parâmetros de type, count e path.
+2) File to check if the request is returning the barcode integration behavior for tag creation with the type, count and path parameters.
 
 -
 
-Para rodar o teste unitário, escreva o seguinte comando no terminal → `pytest` 
+To run the unit test, type the following command in the terminal → `pytest` 
 
-Ou para rodar e apresentar o nome do teste com o status (se passou ou falhou), escreva o seguinte comando no terminal → `pytest -s -v` 
+Or to run and display the name of the test with the status (whether it passed or failed), write the following command in the terminal → `pytest -s -v` 
 
 
-## Status do projeto
-:heavy_check_mark: Aplicação finalizada.
+## Project status
+:heavy_check_mark: Application completed.
